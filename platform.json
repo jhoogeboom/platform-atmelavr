@@ -27,6 +27,10 @@
       "package": "framework-arduinoavr-gateway",
       "script": "builder/frameworks/arduino-gateway.py"
     },
+    "arduinobuq": {
+      "package": "framework-arduinoavr-buq",
+      "script": "builder/frameworks/arduino-buq.py"
+    },
     "simba": {
       "package": "framework-simba",
       "script": "builder/frameworks/simba.py"
@@ -46,6 +50,11 @@
       "type": "framework",
       "optional": true,
       "version": "https://github.com/jhoogeboom/framework-arduino-gateway.git"
+    },
+    "framework-arduinoavr-buq": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/jhoogeboom/framework-arduino-buq.git"
     },
     "framework-simba": {
       "type": "framework",
