@@ -25,7 +25,7 @@
     },
     "arduinogateway": {
       "package": "framework-arduinoavr-gateway",
-      "script": "builder/frameworks/arduino.py"
+      "script": "builder/frameworks/arduino-gateway.py"
     },
     "simba": {
       "package": "framework-simba",
