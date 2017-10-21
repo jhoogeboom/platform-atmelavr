@@ -34,7 +34,7 @@ FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoavr-gateway")
 assert isdir(FRAMEWORK_DIR)
 
 # USB flags
-ARDUINO_USBDEFINES = [("ARDUINO", int(FRAMEWORK_VERSION.split(".")[1]))]
+ARDUINO_USBDEFINES = [("ARDUINO-gateway", int(FRAMEWORK_VERSION.split(".")[1]))]
 if "build.usb_product" in env.BoardConfig():
     ARDUINO_USBDEFINES += [
         ("USB_VID", env.BoardConfig().get("build.hwids")[0][0]),
