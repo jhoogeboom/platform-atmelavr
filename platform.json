@@ -23,7 +23,7 @@
       "package": "framework-arduinoavr",
       "script": "builder/frameworks/arduino.py"
     },
-    "arduino-gateway": {
+    "arduinogateway": {
       "package": "framework-arduinoavr-gateway",
       "script": "builder/frameworks/arduino.py"
     },
