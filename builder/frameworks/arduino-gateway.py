@@ -35,7 +35,7 @@ assert isdir(FRAMEWORK_DIR)
 
 FRAMEWORK_VERSION = 10619
 # USB flags
-ARDUINO_USBDEFINES = [("ARDUINO", int(FRAMEWORK_VERSION)]
+ARDUINO_USBDEFINES = [("ARDUINO", int(FRAMEWORK_VERSION))]
 if "build.usb_product" in env.BoardConfig():
     ARDUINO_USBDEFINES += [
         ("USB_VID", env.BoardConfig().get("build.hwids")[0][0]),
