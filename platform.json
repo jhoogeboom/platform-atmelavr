@@ -19,6 +19,10 @@
     "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json"
   ],
   "frameworks": {
+    "arduino": {
+      "package": "framework-arduinoavr",
+      "script": "builder/frameworks/arduino.py"
+    },
     "arduinogateway": {
       "package": "framework-arduinoavr-gateway",
       "script": "builder/frameworks/arduino-gateway.py"
@@ -32,6 +36,11 @@
     "toolchain-atmelavr": {
       "type": "toolchain",
       "version": "~1.40902.0"
+    },
+    "framework-arduinoavr": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.10619.0"
     },
     "framework-arduinoavr-gateway": {
       "type": "framework",
