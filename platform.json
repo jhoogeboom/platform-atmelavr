@@ -23,8 +23,8 @@
       "package": "framework-arduinoavr",
       "script": "builder/frameworks/arduino.py"
     },
-    "arduino2": {
-      "package": "framework-arduinoavr2",
+    "arduino-gateway": {
+      "package": "framework-arduinoavr-gateway",
       "script": "builder/frameworks/arduino.py"
     },
     "simba": {
@@ -42,10 +42,10 @@
       "optional": true,
       "version": "~1.10619.0"
     },
-    "framework-arduinoavr2": {
+    "framework-arduinoavr-gateway": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/jhoogeboom/framework-arduino.git"
+      "version": "https://github.com/jhoogeboom/framework-arduino-gateway.git"
     },
     "framework-simba": {
       "type": "framework",
