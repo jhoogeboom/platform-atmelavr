@@ -30,7 +30,7 @@ env = DefaultEnvironment()
 platform = env.PioPlatform()
 
 FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoavr-gateway")
-FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoavr-gateway")
+#FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoavr-gateway")
 assert isdir(FRAMEWORK_DIR)
 
 FRAMEWORK_VERSION = 10619
